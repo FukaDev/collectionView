@@ -29,6 +29,9 @@
                 <constraint firstItem="wQZ-9u-lri" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uKe-w9-yqB"/>
             </constraints>
             <size key="customSize" width="103" height="133"/>
+            <connections>
+                <outlet property="imageView" destination="wQZ-9u-lri" id="q1V-5K-58J"/>
+            </connections>
             <point key="canvasLocation" x="170.28985507246378" y="59.263392857142854"/>
         </collectionViewCell>
     </objects>

@@ -11,6 +11,8 @@ class MyCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet var imageView: UIImageView!
     
+    static let identifier = "MycollectiomViewCell"
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
